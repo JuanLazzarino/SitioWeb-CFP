@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Alata",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #0a011a ;
+ }
+
+ header{
+    padding: 30px;
+    /*background-image: url(https://th.bing.com/th/id/OIP.AWC088NnrDc7_2yJOsC3pQHaBz?w=1920&h=468&rs=1&pid=ImgDetMain);
+    background-size:contain;            "Mi duda es si puedo descargar la imagen y editarla 
+                                           para despues ponerla de alguna forma local.si uso url y le 
+                                           pongo la ruta como con href no funciona "
+    background-position: center;*/
+    background: #ddda07;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ header h1{
+   color: #0a011a;
+ }
+ nav {
+    margin: 10px;
+    background: #666;
+    border-radius: 15px;
+ }
+ nav ul {
+    list-style: none;
+}
+
+ nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+
+ }
+ nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color: #dcc;
+ }
+
+ .card-container-proyects{
+    display: flex;
+    flex-direction: column; 
+    background: #0a011a;
+    padding: 15px;
+    align-items: center;
+   
+} 
+    .card{
+    background: #fff;
+    box-shadow: 0 0 13px #e3f303 ;
+    margin-top: 40px ;
+    border-radius: 20px;
+    padding: 20px;
+    display: inherit;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content:space-around;
+    align-items: center;
+   
+  }
+  .card .card-text{
+    width: 250px;
+    display: inherit;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .card .card-text a{
+   text-decoration: none ;
+   color: #e3f303;
+   background: #0a011a;
+   border:2px solid #e3f303; 
+   padding: 0.5em;
+   border-radius: 7px;
+   box-shadow:  0 0 7px #0a011a;
+   width:fit-content;
+   opacity: 0.9;
+ }
+ .card .card-text a:hover{
+   padding: 0.7em;
+   color: #949e07;
+   border-color: #949e07;
+ }
+
+
+  #card-text-plc{
+   width: 200px;
+  }
+  .card .card-img{
+    border: 1px solid #0a011a;
+    display: inline;
+    height: 200px;
+    box-shadow: 0 0 8px #0a011a;
+    border-radius: 10px;
+  }
+
+  .card .card-img img{
+    width:100% ;
+    height: 100%;
+    border-radius: 10px;
+  }
+ 
+  .fundamento{
+    color: aliceblue;
+    margin: 40px;
+  }
+  .fundamento a {
+   text-decoration: none;
+   color:#e3f303
+  }
+  .fundamento p a :hover{
+   font-weight: 800;
+   color: #919b09;
+  } 
+  footer{
+    background-color: #e3f303;
+    padding: 1.4em;
+  }
+  .footer-container{
+    border-top: 1px solid #0a011a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:9px 12px ;
+  }
+  .redes-sociales{
+    display: flex;
+    gap: 20px;
+  }
+  .texto{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  }
+  .footer-container .escuela {
+    border: 2px groove #0a011a ;
+    display: flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+    padding: 0.3em;
+    align-items: center;
+    box-shadow: 0 0 5px #0a011a;
+  }
+  footer img{
+    width:35px ; 
+   }
+
+
+
+   /* ESTILOS DE FUNDAMENTOS */
+
+  .fundamento h2{
+    color: aliceblue;
+  }
+   .fundamento-texto-1{
+  color: aliceblue;
+}
+
+
+/*ESTILOS DE TEORIA */
+
+.header-secundario{
+  background-color: #0a011a;     /*prueba de estilos*/
+ 
+}
+.header-secundario h1{
+  color: #e3f303;
+}
+
+.header-secundario li a{
+  color: #e3f303;
+}
+.body-teoria {
+ background-color: aliceblue; 
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
