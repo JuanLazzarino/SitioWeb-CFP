@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">    
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+       
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,25 +12,32 @@
     <link rel="icon" href="iconos/icono-principal.png">
     <title>Correccion del factor de potencia </title> 
     
+
 </head>
 
 <body>
     <!--- Creamos el encabezado junto con la barra de navegacion-->
     <header>
         <h1>Todo sobre la correccion del factor de Potencia </h1>
-        <nav>
-            <ul>
+        <nav id="navegacion">
+            <div class="contenedor-icono-menu">
+                <a href="#navegacion"><img src="imagenes/menu (1).png" alt="icono del menu principal"></a>
+                        
+            </div>
+
+            <ul class="menu-desplegable">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="Proyectos.html">Proyectos</a></li>
                 <li><a href="Teoria.html">Teoria</a></li>
                 <li> <a href="Fundamentos.html">Fundamentos de los proyectos </a></li>
                 <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#" >cerrar menu</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="card-container-proyects">
-            <div class="card" style="flex-direction: row;">
+            <div class="card">
                 <div class="card-text">
                     <h3>CFP monofasico con !LOGO</h3>
                     <p>Ideal para viviendas que quieran tener tecnologia de punta. Tendra conexion a internet,

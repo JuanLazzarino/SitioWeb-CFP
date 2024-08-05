@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--<link rel="stylesheet" href="bootstrap/css/bootstrap.css">-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,28 +17,82 @@
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <!--- Creamos el encabezado junto con la barra de navegacion-->
     <header>
-        <h1>Todo sobre la correccion del factor de Potencia </h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Proyectos.html">Proyectos</a></li>
-                <li><a href="Teoria.html">Teoria</a></li>
-                <li> <a href="Fundamentos.html">Fundamentos de los proyectos </a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <h1>Todo sobre la correccion del factor de Potencia </h1>
+      <nav id="navegacion">
+          <div class="contenedor-icono-menu">
+              <a href="#navegacion"><img src="imagenes/menu (1).png" alt="icono del menu principal"></a>
+                      
+          </div>
+
+          <ul class="menu-desplegable">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="Proyectos.html">Proyectos</a></li>
+              <li><a href="Teoria.html">Teoria</a></li>
+              <li> <a href="Fundamentos.html">Fundamentos de los proyectos </a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="#" >cerrar menu</a></li>
+          </ul>
+      </nav>
+  </header>
     </header>
-    <main class="fundamento">
-        <h2>Como afecta el factor de potenciad</h2>
-        <section class=" fundamento-texto-1">
+    <main class="container-fluid"id="fundamento">
+      <div class="row">
+        <div class="col-lg-2 col-md-0 col-sm-0"></div>
+        <section class="col-sm-12 col-lg-8">
+        <div id="carouselExampleCaptions" class="carousel slide" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/eficiencia energetica.jpeg" class="d-block w-100" alt="eficiencia energetica" id="img-1-carousel">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  id="texto-del-caorusel">EL IMPACTO DE UN BAJO FP</h5>
+                  <p  id="texto-del-caorusel">El uso eficiente de la energia genera un mundo mas saludable</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/impacto tecnico-economico.png" class="d-block w-100" alt="impacto tecnico economico del mal uso de la energia" id="img-2-caorusel">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  id="texto-del-caorusel">Grandes perdidas economicas</h5>
+                  <p  id="texto-del-caorusel">Se pierde mucha energia para transportarla y sobredimensiona las lineas</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/contaminacion por generacion de energia.jpeg" class="d-block w-100" alt="como al generar energia y principalmente con conmbustible fosil contaminamos el planeta" id="img-3-caorusel">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  id="texto-del-caorusel">Generar energia electrica contamina</h5>
+                  <p  id="texto-del-caorusel">Se incrementa la energia generada de forma inecesaria, simplemente por perdidas evitables </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/impacto economico.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="texto-del-caorusel"> Un alto FP permite lineas mas pequeñas</h5>
+                  <p  id="texto-del-caorusel"> Se necesita menos cobre por lo que hay menos explotacion minera</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+           </div>
+           </section> 
+           <div class="col-lg-2 col-md-0 col-sm-0"></div>
+          </div><h2>Como afecta el factor de potenciad</h2>
+        <section class=" fundamento-texto-1"class="col-12">
            <p> Antes de leer esta seccion en la cual se explica porque es
             importante el uso de los dispositivos y justifico su construccion
             es aconsejable leer la <a href="Teoria.html">Teoria</a> para comprender mucho mejor todo.
             En esta parte sera todo mucho mas tecnico.</p>
         </section>
-        
+      </div>  
         
         
         
