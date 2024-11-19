@@ -240,6 +240,16 @@ margin-left: 1em;
   .proyecto .conteiner_descripcion_del_proyecto p{
     color: aliceblue;
   }
+  @media (max-width:720px){
+    .proyecto .conteiner_introduccion p{
+      font-size: small;
+      margin: 2rem 5rem;
+      padding: 1rem;
+    }
+    .conteiner_introduccion{
+      background-size: 50% 50%;
+    }
+  }
 
 
 
