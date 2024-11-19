@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
@@ -30,7 +31,7 @@
 
           <ul class="menu-desplegable">
               <li><a href="index.html">Inicio</a></li>
-              <li><a href="Proyectos.html">Proyectos</a></li>
+              <li><a href="Proyecto.html">Proyecto</a></li>
               <li><a href="Teoria.html">Teoria</a></li>
               <li> <a href="Fundamentos.html">Fundamentos de los proyectos </a></li>
               <li><a href="contacto.html">Contacto</a></li>
@@ -39,8 +40,9 @@
       </nav>
   </header>
     </header>
-    <main class="container-fluid"id="fundamento">
-      <div class="row">
+    <main class="fundamentos container-fluid"id="fundamento">
+   
+   <!---   <div class="row">
         <div class="col-lg-2 col-md-0 col-sm-0"></div>
         <section class="col-sm-12 col-lg-8">
         <div id="carouselExampleCaptions" class="carousel slide" >
@@ -85,33 +87,107 @@
            </div>
            </section> 
            <div class="col-lg-2 col-md-0 col-sm-0"></div>
-          </div><h2>Como afecta el factor de potenciad</h2>
+          </div><h2>Como afecta el factor de potencia</h2>
         <section class=" fundamento-texto-1"class="col-12">
-           <p> Antes de leer esta seccion en la cual se explica porque es
-            importante el uso de los dispositivos y justifico su construccion
-            es aconsejable leer la <a href="Teoria.html">Teoria</a> para comprender mucho mejor todo.
-            En esta parte sera todo mucho mas tecnico.</p>
-        </section>
-      </div>  
-        
-        
-        
-        <footer>
-            <div class="footer-container">
-               <div class="texto">
-                <img src="iconos/icono-principal.png" alt="icono de la magina, representa la nube de internet. Ademas la industria 4.0">
-                <p>© Copyright 2024 <strong>Juan Lazzarino</strong></p>
-               </div>
-               <div class="escuela" >
-                <p>EETP 483 Proyecto Final </p>
-                <img src="iconos/escudo-indu-removebg-preview (3).png" alt="escudo del colegio Industrial de Venado Tuerto ">
-               </div>
-                <div class="redes-sociales">
-                    <a href=" "alt="red social instagram" target="_blank"> <img src="iconos/icono-ig.webp" alt=""></a>
-                    <a href=" "alt="red social whatsap" target="_blank"> <img src="iconos/843786_whatsapp_icon.png" alt=""></a>       
-                </div>
+          --->
+          <section class="fundamentos_introduccion">
+           <p>
+           " En esta seccion se asume que el lector tiene conocimientos previos o ya leyo la <a href="Teoria.html"><strong>Teoria</strong></a> y posee
+            una idea sobre de que se trata el dispositivo (se explica en <a href="Proyecto.html">Proyecto</a>). Ahora si comencemos a entender la 
+            importancia de corregir nuestro FP."
+           </p>
+           <h2>¿Por que deberiamos utilizar este dispositivo?</h2>
+           <h3>Introduccion</h3>
+           <p>
+            Vivimos en un mundo en el cual el consumo de energìa elèctrica aumenta todos los dias, mas aùn con los nuevos autos elèctricos y la posibilidad de generar 
+            energia renobable aprovechando los recursos que nos brinda el planeta sin tener que destruirlo ni perjudicarlo como si lo hacen los medios de transporte a 
+            combustibles fosiles. Ademas del bajo costo de produccion de energia electrica y su principal ventaja, la facilidad con la que se puede transportar y transformarla
+            en cualquier otra forma de energia (mecanica, termica, luz). A su vez producirla y utilizarla no genera contaminacion ambiental o lo hace en mucha menor escala que los 
+            derivados del petroleo. El principal problema es que se emplea combustibles como el gasoil o la nafta para producir electricidad y satisfacer la demanda energetica. 
+            Como vemos es imprecindible hacer un uso eficiente de la energia electrica y en esto juega un rol fundamental el FP (factor de potencia). No solo por la parte ambiental
+            si no que tiene un gran impacto economico por lo que organizaciones encargadas de la distribucion electrica como EDENOR y EDESUR empezaran a cobrar recargos en caso de no cumplir con ciertos 
+            estandares llegando a pagar, en un futuro, el doble de lo que consumimos.
+            </p>
+          </section>
+          <section class="fundamentos_Impacto_climatico">
+            <h3>Causas y consecuencias de un bajo FP</h3>
+             <p>
+             Los elementos con cargas inductivas o capacitivas (microondas, motores, heladeras, tubos fluorecentes, secadores de pelo, etc) generan un bajo FP. Probocando las siguientes consecuencias:
+             </p>
+             <h4>Impacto climatico</h4>
+             <div class="conteiner_contaminacion">
+             <ul>
+              <li>Aumento de las emisiones de gases de efecto invernadero (GEI), como dióxido de carbono (CO2)</li>
+              <li>Mayor impacto ambiental debido a la extracción y quema de combustibles fósiles.</li>
+              <li>La mayor demanda energética implica un incremento en la extracción y uso de recursos no renovables (como el carbón y el gas natural), lo que acelera su agotamiento y los impactos ambientales asociados, 
+                como la deforestación y la pérdida de biodiversidad</li>
+             </ul>
+             <img src="imagenes/Contaminacion_GEI.avif" alt="Planta nucleares contaminando">
             </div>
-          </footer>    
+          </section>
+          <section class="penalizaciones_economicas">
+            <h4>Penalizaciones economicas</h4>
+            <p>Debido a la gran importancia que tiene un alto FP la ENRE (Ente Nacional Regulador de la Electricidad) por medio de una resolucion
+              establece que empresas distribuidoras de electricidad puedad cobrar una multa a los usuarios T1 (bajo consumo) T2 (medio consumo) y 
+              T3 (alto consumo), es decir a todos los usuarios, una multa por tener un factor de potencia menor a 0,95. Pudiendo cobrar un 30% mas del total a partir 
+              1 de Octubre de 2024, 60% mas desde el 1 Mayo de 2025 y un 100% mas desde el 1 de Diciembre de 2025. La resolucion la podemos encontrar en el
+               <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/312342/20240816" target="_blank"><strong>boletin oficial</strong></a> y podremos leer con 
+               mas detalle la noticia en la pagina oficial del gobierno <a href="https://www.argentina.gob.ar/noticias/programa-para-la-mejora-del-factor-de-potencia-mas-especificaciones-tecnicas" target="_blank"><strong>Programa para la Mejora del Factor de Potencia</strong></a>.
+            </p>
+          </section>
+          <section class="sobredimensionamiento_de_lineas_de_transmision_y_equipos">
+            <h4>Sobredimensionamiento de lineas de transmision y equipos</h4>
+            <p>
+              Un cos de phi o FP bajo provoca que se tenga q transmitir mas energia de forma innecesaria, aumentando la corriente en las lineas necesitando conductores mas 
+              gruesos, es decir, mas cobre y dispositivos como la termica, diyuntor, llaves, etc tambien mas resistentes. Sien embargo el mayor problemas es que se necesitan 
+              generadores mas grandes, mayores recurtos y todas las lineas de transmision con mayor capacidad. Este ultimo es el principal problema ya que en la Argentina el sistema
+              electrico esta al limite y en momentos de mucha demanda se puede sobrecargar generando cortes de "luz", por ejemplo dias de mucho calor. Una de las soluciones para esto es expandir la 
+              capacidad de las lineas lo que tiene un gran costo tanto economico como ambiental. O mejorar la eficiencia de esta, aumentando el factor de potencia que resulta ser la mejor opcion.
+            </p>
+          </section>
+          <section class="deterioro_de_equipos">
+           <h4>Deterioro de los equipos</h4>
+           <p>El aumento de corrientes reactivas puede generar armónicos y resonancias, afectando el funcionamiento de otros equipos electrónicos. Estos fenomenos generan una mayor caida de tension en la lineas
+            perjudicando el funcionamiento de los equipos, adema de sobrecorrientes o ruido en la alimentacion de los equipos que reduce su vida util y rendimiento.
+           </p>
+          </section>
+          <section class="mayores_perdidas_de_energia">
+            <h4>Mayores perdidas de energia</h4>
+            <p>
+              Al aumentar la corriente las perdidas en los coductores por efecto joule incrementan ya que dependen de la siguiente ecuacion P = I^2 * R y como vemos 
+              aumentan con el cuadrado de la intensidad. Es decir, el coste de transportar energia electrica aumenta ya que para realizar el mismo trabajo util se va a dicipar 
+              mucha mas energia en forma de calor. Esto se incrementa mas aun con la disminucion del factor de potencia. En el mundo en el que vivimos que unos de los objetivos 
+              energeticos es sustentarse con energias renovables es imprecindible utilizar el 100% y no desperdiciar nada. 
+            </p>
+          </section>
+          <section class="material_de_interes">
+             <h4>Material de interes</h4>
+             <p>
+              En caso de que quieras seguir incursionando sobre el tema a continuacion dejo algunos estudios realizados por universidades que tratan el topico:
+             </p>
+             <ol>
+              <li><a href="archivos_PDFs/estudio_Nicaragua.pdf" target="_blank">Impacto del FP en Nicaragua</a></li>
+              <li><a href="archivos_PDFs/como_leer_la_factura_electrica.pdf" target="_blank">¿Como leer la factura electrica?</a></li>
+              <li><a href="archivos_PDFs/Ahorro_de_energia.pdf" target="_blank">Importancia del FP</a></li>
+             </ol>
+          </section>
+      </div>  
     </main>
+    <footer>
+      <div class="footer-container">
+         <div class="texto">
+          <img src="iconos/icono-principal.png" alt="icono de la magina, representa la nube de internet. Ademas la industria 4.0">
+          <p>© Copyright 2024 <strong>Juan Lazzarino</strong></p>
+         </div>
+         <div class="escuela" >
+          <p>EETP 483 Proyecto Final </p>
+          <img src="iconos/escudo-indu-removebg-preview (3).png" alt="escudo del colegio Industrial de Venado Tuerto ">
+         </div>
+          <div class="redes-sociales">
+              <a href=" "alt="red social instagram" target="_blank"> <img src="iconos/icono-ig.webp" alt=""></a>
+              <a href=" "alt="red social whatsap" target="_blank"> <img src="iconos/843786_whatsapp_icon.png" alt=""></a>       
+          </div>
+      </div>
+    </footer>    
 </body>
 </html>

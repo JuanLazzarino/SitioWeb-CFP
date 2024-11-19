@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">    
     <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
 
             <ul class="menu-desplegable">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="Proyecto.html">Proyecto</a></li>
                 <li><a href="Teoria.html">Teoria</a></li>
                 <li> <a href="Fundamentos.html">Fundamentos de los proyectos </a></li>
                 <li><a href="contacto.html">Contacto</a></li>
@@ -37,18 +37,22 @@
             </ul>
         </nav>
     </header>
-    <main class=" teoria">
+    <main class="teoria">
         <h2>Transferencia de energia electrica</h2>
        <section>
+        <p>"ACLARACION: En todo lo expuesto se hace referencia al factor de potencia FP entendiendolo solo como el coseno de phi o desfasaje entre 
+            tension y corriente omitiendo el factor de forma o distorcion (tambien importante) para no complejizar el contenido de la pagina mas adelante
+            pienso expandir el proyecto para poder mejorar esto tambien pero por el momento no lo tendremo en cuenta"
+        </p>
         <p>
             Para poder tener luz en nuestras casas, calor por medio de estufas electricas,
-            calentar la comida con el microondas, sacar agua con la bomba. Para todo esto 
+            calentar la comida con el microondas, sacar agua con la bomba. Para todo esto, 
             necesitamos energia electrica que debe ser generada y transportada una larga distancia 
-            en el mismo instane que la estamos consumiendo. Es supongamos que somos de cordoba y prendemos 
-            una luz, la corriente de esa lampara puede estar viniendo de el sur de Argentina a cientos de Km.
-            Todo esto es gracias a las esplendidas lines de transmision de energia y toda la sciecia e ingenieria 
-            que tienen atras. Algo muy importante para que la transmision sea eficiente es el FP.
-        </p>
+            en el mismo instane que la estamos consumiendo. Supongamos que somos de cordoba y encendemos
+            una luz, la corriente de esa lampara puede estar viniendo desde el sur de Argentina a cientos de Km.
+            Todo esto es gracias a las esplendidas lines de transmision de energia y toda la ciecia e ingenieria 
+            que tienen atras. Algo muy importante para que la transmision sea eficiente es el FP (factor de potencia).
+        </p> 
        </section>
         <section>
          <h3>
@@ -57,14 +61,14 @@
         <p>
          El factor de potencia que tanto nombramos es un numero que nos indica la relacion (P/S) entre la potencia
          que usamos (activa) para transformar en trabajo util: luz, calor, movimiento, etc y la potencia que viaja 
-         por los cables (aparente). Como podemos imaginar la ideal es que sea 1 lo que significaria que la potencia que transportamos 
-         es la misma que usamos. Para entenderlo mejor realizemos la siguiente analogia acompañada de uma imagen.
+         por los cables (aparente), entendida como la potencia total (o energia total). Como podemos imaginar lo ideal es que sea 1 lo que significaria que la potencia que transportamos 
+         es la misma que usamos. EL factor de potencia se mide de 0 a 1, siendo 0 el peor posible y 1 el ideal. Para entenderlo mejor realizemos la siguiente analogia acompañada de uma imagen.
         </p>
         <img src="imagenes/vaso-de -cerveza.jpeg" alt=" vaso de cerveza representado el factor de potencia">
         <p>
-            Imaginemos un vaso de cerveza sin alcohol ovbiamente. Si se sirve de mala forma tendra mucha espuma 
+            Imaginemos un vaso de cerveza sin alcohol. Si se sirve de mala forma tendra mucha espuma 
             por lo cual tendra menos capacidad para el liquido que es lo que si se puede tomar. La capacidad de nuestro vaso se 
-            ve reducida, lo estamos usando de una forma ineficiente. Lo mismo ocurre con los cables sin tenemos un bajo factor de 
+            ve reducida, lo estamos usando de una forma ineficiente. Lo mismo ocurre con los cables si tenemos un bajo factor de 
             potencia. La cerveza representaria la potencia activa, la espuma la reactiva que es la indeseable que no utilizamos para 
             nada y por ultimo la suma de estas 2 es la potencia aparente. 
         </p>
@@ -74,35 +78,38 @@
             <p>
                 Como podremos imaginar la potencia reactiva representa un problema al cual se le debe prestar atencion.
                 En el vaso de cerveza compramos un vaso mas grande y listo pero a la hora de tener que poner cables, 
-                trasformadores, torres mas grandes implica mucho dinero mas aun escalado a nivel ciudad ni hablemos a nivel 
+                trasformadores, torres mas grandes implica mucho dinero, mas aun escalado a nivel ciudad y ni hablemos a nivel 
                 provincial o nacional. Ademas no es solo el sobre dimensionamiento de las lineas de transmision si no que tambien
                 toda esa energia reactiva que va y viene por los cable se disipa en forma de calor generado perdidas y mayores 
-                caidas de tension en los cables.
+                caidas de tension en los cables. Esto implica una mayor produccion de energia generando una gran contaminacion ambiental.
             </p>
+            <br>
+            <p> 
+                Para que quede una idea clara, la energia total que viaja por los cables es la potencia aparente, esta es igual a la suma de 
+                la potencia activa (util) y la reactiva (desperdicio), mejorarndo el factor de potencia disminuimos la potencia reactiva (desperdicio)
+                generando menos perdidas y una mayor eficiencia energetica. Es importanre que se queden con este concepto.
+            </p>
+            <h4>Ahora puedes leer y comprender mucho mejor de que se trata mi <a href="Proyecto.html"><strong>proyecto</strong></a></h4>
         </section>
         <section>
            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_mvA-LP2n_w" title="¿Qué es el Factor de Potencia? ¿Para qué sirve? ⚡ Sígueme la Corriente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        
-        
-        
-        
-        <footer>
-            <div class="footer-container">
-               <div class="texto">
-                <img src="iconos/icono-principal.png" alt="icono de la magina, representa la nube de internet. Ademas la industria 4.0">
-                <p>© Copyright 2024 <strong>Juan Lazzarino</strong></p>
-               </div>
-               <div class="escuela" >
-                <p>EETP 483 Proyecto Final </p>
-                <img src="iconos/escudo-indu-removebg-preview (3).png" alt="escudo del colegio Industrial de Venado Tuerto ">
-               </div>
-                <div class="redes-sociales">
-                    <a href=" "alt="red social instagram" target="_blank"> <img src="iconos/icono-ig.webp" alt=""></a>
-                    <a href=" "alt="red social instagram" target="_blank"> <img src="iconos/843786_whatsapp_icon.png" alt=""></a>       
-                </div>
-            </div>
-          </footer>    
     </main>
+    <footer>
+        <div class="footer-container">
+           <div class="texto">
+            <img src="iconos/icono-principal.png" alt="icono de la magina, representa la nube de internet. Ademas la industria 4.0">
+            <p>© Copyright 2024 <strong>Juan Lazzarino</strong></p>
+           </div>
+           <div class="escuela" >
+            <p>EETP 483 Proyecto Final </p>
+            <img src="iconos/escudo-indu-removebg-preview (3).png" alt="escudo del colegio Industrial de Venado Tuerto ">
+           </div>
+            <div class="redes-sociales">
+                <a href=" "alt="red social instagram" target="_blank"> <img src="iconos/icono-ig.webp" alt=""></a>
+                <a href=" "alt="red social instagram" target="_blank"> <img src="iconos/843786_whatsapp_icon.png" alt=""></a>       
+            </div>
+        </div>
+      </footer>    
 </body>
 </html>
